@@ -8,6 +8,7 @@ public class Main_2739_구구단 {
         int a = Integer.parseInt(br.readLine());
         br.close();
 
+        
         for (int i = 1; i < 10; i++) {
             System.out.println(a + " * " + i + " = " + (a * i));
         }
